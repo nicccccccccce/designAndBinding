@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="demo.test.chi.mode.UserBean" />
+
+        <variable
+            name="user"
+            type="UserBean" />
+        <!--<import type="android.databinding.ObservableMap"/>-->
+        <!--<variable name="user" type="ObservableMap<String, Object>"/>-->
+        <!--<import type="android.databinding.ObservableList"/>-->
+        <!--<variable name="userlist" type="ObservableList<UserBean>"/>-->
+        <!--<variable name="index" type="int"/>-->
+        <variable
+            name="buttonname"
+            type="String" />
+    </data>
+
+    <android.support.percent.PercentFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#234536"
+            android:text="@{user.userName}"
+            app:layout_heightPercent="10%"
+            app:layout_marginTopPercent="5%"
+            app:layout_widthPercent="70%" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#666666"
+            android:text="@{String.valueOf(user.age)}"
+            app:layout_heightPercent="10%"
+            app:layout_marginLeftPercent="30%"
+            app:layout_marginTopPercent="20%"
+            app:layout_widthPercent="70%" />
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="#666666"-->
+            <!--android:text='@{user["firstName"]}'-->
+            <!--app:layout_heightPercent="10%"-->
+            <!--app:layout_marginLeftPercent="30%"-->
+            <!--app:layout_marginTopPercent="35%"-->
+            <!--app:layout_widthPercent="70%" />-->
+        <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:background="#666666"-->
+        <!--android:text='@{user[index].userName}'-->
+        <!--app:layout_heightPercent="10%"-->
+        <!--app:layout_marginLeftPercent="30%"-->
+        <!--app:layout_marginTopPercent="35%"-->
+        <!--app:layout_widthPercent="70%" />-->
+
+        <Button
+            android:id="@+id/refresh_button"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#d3d4d5"
+            android:text="@{buttonname}"
+            app:layout_heightPercent="10%"
+            app:layout_marginLeftPercent="35%"
+            app:layout_marginRightPercent="35%"
+            app:layout_marginTopPercent="50%"
+            app:layout_widthPercent="30%" />
+    </android.support.percent.PercentFrameLayout>
+</layout>

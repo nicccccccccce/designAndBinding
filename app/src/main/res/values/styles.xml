@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    </style>
+    <style name="ToorbarTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#00796B</item>
+        <item name="colorAccent">#E6EE9C</item>
+    </style>
+
+    <style name="FloatingStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#F0F4C3</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>
