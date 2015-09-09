@@ -23,6 +23,6 @@ compile 'com.android.support:percent:23.0.0'
 > 
 classpath "com.android.databinding:dataBinder:1.0-rc1"
 > 
-/*![CHI](https://github.com/nicccccccccce/designAndBinding/blob/design-master/app/src/main/res/raw/design.gif) */
+<!-![CHI](https://github.com/nicccccccccce/designAndBinding/blob/design-master/app/src/main/res/raw/design.gif) -->
 
-<img src="https://github.com/nicccccccccce/designAndBinding/blob/design-master/app/src/main/res/raw/design.gif" height="200" width="200" />
+<img src="https://github.com/nicccccccccce/designAndBinding/blob/design-master/app/src/main/res/raw/design.gif" height="50%" width="50%" />
