@@ -2,6 +2,7 @@ designAndBinding
 =====
 针对design和Data Binding练习的例子
 -------
+> 
 compile 'com.squareup.okhttp:okhttp:2.0.0'
 > 
 compile 'com.google.code.gson:gson:2.2.4'
@@ -23,3 +24,4 @@ compile 'com.android.support:percent:23.0.0'
 classpath "com.android.databinding:dataBinder:1.0-rc1"
 > 
 ![CHI](https://github.com/nicccccccccce/designAndBinding/blob/design-master/app/src/main/res/raw/design.gif) 
+
