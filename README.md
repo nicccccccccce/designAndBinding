@@ -2,8 +2,8 @@ designAndBinding
 =====
 针对design和Data Binding练习的例子
 -------
-    \<br>compile 'com.squareup.okhttp:okhttp:2.0.0'
-     \<br>compile 'com.google.code.gson:gson:2.2.4'
+    \<br>compile 'com.squareup.okhttp:okhttp:2.0.0'  
+     \<br>compile 'com.google.code.gson:gson:2.2.4'  
      \<br>compile 'com.jakewharton:butterknife:5.1.1'
      \<br>compile 'com.android.support:design:23.0.0'
     \<br> compile 'com.android.support:appcompat-v7:23.0.0'
