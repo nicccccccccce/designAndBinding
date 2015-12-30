@@ -25,4 +25,4 @@ classpath "com.android.databinding:dataBinder:1.0-rc1"
 > 
 <!--<p hidden>![CHI](https://github.com/nicccccccccce/designAndBinding/blob/design-master/app/src/main/res/raw/design.gif)</p>-->
 
-<img src="https://github.com/nicccccccccce/designAndBinding/blob/design-master/app/src/main/res/raw/design.gif" height="50%" width="50%" />
+<img src="https://github.com/nicccccccccce/documents/blob/master/design.gif" height="50%" width="50%" />
